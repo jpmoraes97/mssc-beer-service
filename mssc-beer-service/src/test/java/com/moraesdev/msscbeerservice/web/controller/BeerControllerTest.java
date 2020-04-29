@@ -1,4 +1,4 @@
-package com.moraesdev.msscbeerservice.web.controller;
+/*package com.moraesdev.msscbeerservice.web.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,3 +23,4 @@ class BeerControllerTest {
     void updateBeer() {
     }
 }
+*/
