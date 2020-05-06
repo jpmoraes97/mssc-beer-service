@@ -13,6 +13,8 @@ public class BeerLoader implements CommandLineRunner {
     public static final String BEER_2_UPC = "0005957498644";
     public static final String BEER_3_UPC = "0005957498685";
 
+    public static final String BEER_1_UUID  = "a712d914-61ea-4623-8bd0-32c0f6545bfd";
+
 
     private final BeerRepository beerRepository;
 

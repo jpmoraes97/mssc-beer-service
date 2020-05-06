@@ -62,7 +62,7 @@ public class BeerServiceImpl implements BeerService {
 
     @Override
     public BeerDto saveNewBeer(BeerDto beerDto) {
-        return beerMapper.beerToBeerDto(beerRepository.save(beerMapper.beetDtoToBeer(beerDto)));
+        return beerMapper.beerToBeerDto(beerRepository.save(beerMapper.beerDtoToBeer(beerDto)));
     }
 
     @Override
